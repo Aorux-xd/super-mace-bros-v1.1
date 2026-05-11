@@ -1,0 +1,12 @@
+execute as @a run scoreboard players operation @s lives -= 1 const
+execute store result score .msg const run random value 1..10
+execute if score .msg const matches 1 run tellraw @a [{"color":"gray","selector":"@s"},{"color":"gray","text":" got absolutely owned ("},{"score":{"name":"@s","objective":"lives"}},{"color":"gray","text":" life left)"}]
+execute if score .msg const matches 2 run tellraw @a [{"color":"gray","selector":"@s"},{"color":"gray","text":" has a skill issue ("},{"score":{"name":"@s","objective":"lives"}},{"color":"gray","text":" life left)"}]
+execute if score .msg const matches 3 run tellraw @a [{"color":"gray","selector":"@s"},{"color":"gray","text":" took the L ("},{"score":{"name":"@s","objective":"lives"}},{"color":"gray","text":" life left)"}]
+execute if score .msg const matches 4 run tellraw @a [{"color":"gray","selector":"@s"},{"color":"gray","text":" saw the light ("},{"score":{"name":"@s","objective":"lives"}},{"color":"gray","text":" life left)"}]
+execute if score .msg const matches 5 run tellraw @a [{"color":"gray","selector":"@s"},{"color":"gray","text":" isn't locked in ("},{"score":{"name":"@s","objective":"lives"}},{"color":"gray","text":" life left)"}]
+execute if score .msg const matches 6 run tellraw @a [{"color":"gray","selector":"@s"},{"color":"gray","text":" flew away ("},{"score":{"name":"@s","objective":"lives"}},{"color":"gray","text":" life left)"}]
+execute if score .msg const matches 7 run tellraw @a [{"color":"gray","selector":"@s"},{"color":"gray","text":" slipped ("},{"score":{"name":"@s","objective":"lives"}},{"color":"gray","text":" life left)"}]
+execute if score .msg const matches 8 run tellraw @a [{"color":"gray","selector":"@s"},{"color":"gray","text":" got cooked ("},{"score":{"name":"@s","objective":"lives"}},{"color":"gray","text":" life left)"}]
+execute if score .msg const matches 9 run tellraw @a [{"color":"gray","selector":"@s"},{"color":"gray","text":" forgot to survive ("},{"score":{"name":"@s","objective":"lives"}},{"color":"gray","text":" life left)"}]
+execute if score .msg const matches 10 run tellraw @a [{"color":"gray","selector":"@s"},{"color":"gray","text":" was crushed ("},{"score":{"name":"@s","objective":"lives"}},{"color":"gray","text":" life left)"}]

@@ -1,0 +1,9 @@
+{
+	"values": [
+		"animated_java:global/internal/gu/load",
+		"animated_java:global/on_load",
+		"mace:load",
+		"player_motion:internal/technical/load",
+		"scrfx:zinternals/load"
+	]
+}

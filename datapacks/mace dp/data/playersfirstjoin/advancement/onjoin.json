@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"onjoin": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function": "playersfirstjoin:onjoin"
+	}
+}

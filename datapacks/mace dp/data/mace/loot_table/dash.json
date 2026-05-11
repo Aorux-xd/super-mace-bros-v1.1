@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick"
+        }
+      ],
+      "functions": [
+    
+        {
+            "function": "set_components",
+            "components": {
+                "item_model" : "minecraft:dash",
+                "item_name": "'Dash'",
+                "max_stack_size": 3, 
+                "custom_data": "{dashi:1}",
+                "tooltip_display": {
+                    "hidden_components": ["enchantments","unbreakable","minecraft:attribute_modifiers"]
+                }
+            }
+        },
+        {
+        "function": "set_count",
+        "count": 3
+        }
+
+      ]
+    }
+  ]
+}
+

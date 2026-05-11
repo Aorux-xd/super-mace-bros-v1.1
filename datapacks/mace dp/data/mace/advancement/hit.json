@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "damage": {
+          "type": {
+            "is_direct": true,
+            "source_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mace:normal/hit"
+  }
+}

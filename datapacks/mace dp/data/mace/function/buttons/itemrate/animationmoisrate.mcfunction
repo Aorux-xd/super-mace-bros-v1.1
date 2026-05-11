@@ -1,0 +1,1 @@
+data modify entity @e[tag=IRLID,limit=1] transformation.scale set value [1.1249998f, 1.5000005f, 1.4999998f]
