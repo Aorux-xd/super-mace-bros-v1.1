@@ -78,6 +78,18 @@ tag @a remove gj5
 tag @a remove gj6
 tag @a remove gj7
 tag @a remove gj8
+tag @a remove gj9
+tag @a remove gj10
+tag @a remove gj11
+tag @a remove gj12
+tag @a remove gj13
+tag @a remove gj14
+tag @a remove gj15
+tag @a remove gj16
+tag @a remove gj17
+tag @a remove gj18
+tag @a remove gj19
+tag @a remove gj20
 scoreboard objectives setdisplay sidebar
 gamerule command_block_output false
 gamerule spawn_mobs false
